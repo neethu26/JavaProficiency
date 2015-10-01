@@ -1,0 +1,10 @@
+QUERY
+
+SELECT LAST_NAME,LPAD(SALARY,15,'$')"SALARY" FROM EMPLOYEES;
+
+RESULTS
+
+King	$$$$$$$$$$24000
+Kochhar	$$$$$$$$$$17000
+De Haan	$$$$$$$$$$17000
+Hunold	$$$$$$$$$$$9000

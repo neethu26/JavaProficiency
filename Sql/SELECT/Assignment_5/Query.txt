@@ -1,0 +1,10 @@
+QUERY
+   select last_name || ', '|| job_id as "Employee and Title" from Employees;
+
+RESULTS
+  
+    Employee and Title
+
+1)King, AD_PRES
+2)Kochhar, AD_VP
+3)De Haan, AD_VP

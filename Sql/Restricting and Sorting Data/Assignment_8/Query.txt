@@ -1,0 +1,5 @@
+QUERY
+select last_name,job_id from EMPLOYEES where manager_id is NULL;
+
+RESULTS
+King	AD_PRES

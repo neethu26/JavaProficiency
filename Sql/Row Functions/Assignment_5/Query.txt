@@ -1,0 +1,10 @@
+QUERY
+
+SELECT CONCAT(CONCAT(SUBSTR(LAST_NAME,1,8) ,' '), LPAD(' ',((SALARY/1000)+1),'*')) AS EMPLOYEES_AND_THEIR_SALARIES FROM EMPLOYEES ORDER BY SALARY DESC;
+
+RESULTS
+
+King ************************ 
+Kochhar ***************** 
+De Haan ***************** 
+

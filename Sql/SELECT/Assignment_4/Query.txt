@@ -1,0 +1,6 @@
+QUERY
+   SELECT  employee_id "Emp#",last_name"Employee", job_id"Job", hire_date"Hire Date" from Employees;
+
+RESULTS
+  Emp#       Employee   Job	Hire Date 
+  100	King	AD_PRES	17-JUN-87

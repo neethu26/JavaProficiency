@@ -1,0 +1,5 @@
+Query
+select employee_id , last_name , job_id , hire_date from EMPLOYEES where employee_id = &emp;
+
+Result
+100	King	AD_PRES	17-JUN-87

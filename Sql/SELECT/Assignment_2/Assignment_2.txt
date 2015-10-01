@@ -1,0 +1,4 @@
+1) SELECT  employee_id ,last_name, job_id, hire_date from Employees;
+2) SELECT hire_date as startdate FROM EMPLOYEES;
+3) Third save it into sql file 
+run as  @c:\Users\satish\Desktop\nameOfFile.sql

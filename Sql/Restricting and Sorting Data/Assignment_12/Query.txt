@@ -1,0 +1,10 @@
+QUERY
+
+select last_name from employees where substr(last_name,3,1)='a';
+
+RESULTS
+
+LAST_NAME
+Grant
+Grant
+Whalen

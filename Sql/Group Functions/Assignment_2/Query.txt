@@ -1,0 +1,10 @@
+QUERY
+
+SELECT  job_id,max(salary) as Maximum, min(salary) as Minimum, sum(salary) as Sum, avg(salary) as Average FROM employees group by job_id;
+
+RESULTS
+
+IT_PROG	9000	4200	28800	5760
+AC_MGR	12000	12000	12000	12000
+AC_ACCOUNT	8300	8300	8300	8300
+ST_MAN	8200	5800	36400	7280

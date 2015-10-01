@@ -1,0 +1,39 @@
+Query
+SELECT LAST_NAME,SALARY,COMMISSION_PCT FROM EMPLOYEES WHERE COMMISSION_PCT is not null ORDER BY 2 DESC, 3 DESC;
+
+Results
+Russell	14000	0.4
+Partners	13500	0.3
+Errazuriz	12000	0.3
+Ozer	11500	0.25
+Cambrault	11000	0.3
+Abel	11000	0.3
+Vishney	10500	0.25
+Zlotkey	10500	0.2
+King	10000	0.35
+Tucker	10000	0.3
+Bloom	10000	0.2
+Fox	9600	0.2
+Sully	9500	0.35
+Bernstein	9500	0.25
+Greene	9500	0.15
+McEwen	9000	0.35
+Hall	9000	0.25
+Hutton	8800	0.25
+Taylor	8600	0.2
+Livingston	8400	0.2
+Smith	8000	0.3
+Olsen	8000	0.2
+Doran	7500	0.3
+Cambrault	7500	0.2
+Smith	7400	0.15
+Bates	7300	0.15
+Marvins	7200	0.1
+Sewall	7000	0.25
+Tuvault	7000	0.15
+Grant	7000	0.15
+Lee	6800	0.1
+Ande	6400	0.1
+Banda	6200	0.1
+Johnson	6200	0.1
+Kumar	6100	0.1

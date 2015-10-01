@@ -1,0 +1,9 @@
+QUERY
+
+ select employee_id, last_name, salary, department_id from employees where manager_id = &manager_id order by &column_name; 
+
+RESULTS
+
+148	Cambrault	11000	80
+102	De Haan	17000	90
+147	Errazuriz	12000	80

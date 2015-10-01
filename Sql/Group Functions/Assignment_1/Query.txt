@@ -1,0 +1,7 @@
+QUERY
+
+select max(salary) as Maximum, min(salary) as Minimum, sum(salary) as Sum, avg(salary) as Average from employees;
+
+RESULTS
+
+24000	2100	691400	6461.682242990654205607476635514018691589

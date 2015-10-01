@@ -1,0 +1,11 @@
+QUERY:
+   select distinct job_id from employees;
+
+
+RESULTS:
+
+     JOB_ID
+   
+1) AC_ACCOUNT
+2) AC_MGR
+3) AD_ASST
